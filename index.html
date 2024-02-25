@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="signatureCanvas" width="600" height="400"></canvas>
+    <div class="controls">
+        <label for="textColorPicker">pick Signature color:</label>
+        <input type="color" id="textColorPicker">
+        <label for="backgroundColorPicker">pick Background color:</label>
+        <input type="color" id="backgroundColorPicker">
+        <button class="download-btn" onclick="downloadSignature()">Download Signature</button>
+        <button class="clear-btn" onclick="clearCanvas()">clear canvas</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
